@@ -1,0 +1,26 @@
+<HTML>
+    <BODY>
+        <script>
+            function ftoc() {
+                var f = document.getElementById("f").value 
+                var c = (f-32)/1.8
+                document.getElementById("c").value = c
+            }
+
+            function ctof() {
+                var c = document.getElementById("c").value 
+                var f = (c*1.8) + 32
+                document.getElementById("f").value = f
+            }
+        </script>
+        <H1>Temperature Converter</H1>
+        <form>
+            <label for="c">Celsius</label><br>
+            <input type="text" id="c" name="c"><br>
+            <label for="f">Farenheit</label><br>
+            <input type="text" id="f" name="f"><br>
+        </form>
+        <button onclick="ftoc()">Convert from F</button>
+        <button onclick="ctof()">Convert from C</button>
+    </BODY>
+</HTML>
