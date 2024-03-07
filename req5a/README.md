@@ -40,3 +40,7 @@ It's always useful to know what the answers should be, so you can make sure your
 | 32        | 0       | 273.15 |
 | 212       | 100     | 373.15 |
 | 82.4      | 28      | 301.15 |
+
+## Scratch
+
+You can also do this same exercise in scratch if that's more your speed.  I've included a link to a project to get started with:  https://scratch.mit.edu/projects/978090795/
