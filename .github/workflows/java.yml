@@ -17,4 +17,4 @@ jobs:
           with:
             distribution: 'zulu' # See 'Supported distributions' for available options
             java-version: '21'
-        - run: java HelloWorld.java
+        - run: java hello_world/java/HelloWorld.java
