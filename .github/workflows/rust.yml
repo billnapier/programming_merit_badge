@@ -14,4 +14,4 @@ jobs:
     steps:
         - uses: actions/checkout@v4
         - run: rustc hello_world/rust/hello_world.rs -o hello
-        - run: hello
+        - run: ./hello
