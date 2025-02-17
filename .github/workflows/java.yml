@@ -1,7 +1,6 @@
 name: Build and Run Java
 
 on:
-    push:
     pull_request:
 
 permissions:
