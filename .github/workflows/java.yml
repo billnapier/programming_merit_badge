@@ -2,9 +2,7 @@ name: Build and Run Java
 
 on:
     push:
-      branches: [ $default-branch ]
     pull_request:
-      branches: [ $default-branch ]
 
 permissions:
   contents: read
