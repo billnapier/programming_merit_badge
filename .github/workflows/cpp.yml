@@ -1,4 +1,4 @@
-name: Build and Run Rust
+name: Build and Run CPP
 
 on:
     pull_request:
@@ -13,6 +13,6 @@ jobs:
 
     steps:
         - uses: actions/checkout@v4
-        - run: rustc hello_world/rust/hello_world.rs -o hello
+        - run: g++ hello_world/cpp/hello_world.cpp -o hello 
         - run: ./hello
         - run: rm hello
