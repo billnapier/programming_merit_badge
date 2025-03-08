@@ -1,4 +1,7 @@
-## Requirements 5b and 5c project ideas
+# Requirements 5b and 5c project ideas
+
+WARNING: The program must take input and produce output based on computations and decisions made on the input.
+
 
 For these two projects you need to work on, please check with me before starting
 on them. I'd like to know two things:
@@ -10,6 +13,52 @@ It's important to talk to me before starting you projects because I want to
 ensure that you have a good time with this work. Which means both ensuring that
 the project you want to do is reasonable for your skill level, and also ensruing
 that the tech stack/programming language isn't going to frustrate you.
+
+## Different Tech Stacks to Look At
+
+### Online Options
+
+This is very much the easiest way to go.  For the "it must take input" requirements here if you can change a constant and re-run it in the program, that will count.  Better yet, give me test cases.
+
+#### Scratch
+
+https://scratch.mit.edu/
+
+Online visual programming tool.  Very very very good for beginners, as you can drag and drop your control blocks to make things happen (vs. having to type in the code).
+
+#### Javascript
+
+http://script.google.com/
+
+This is a javascript runtime with an AppScript specific binding (vs. the standard DOM bindings you'd get from a web browser).  
+
+This is a super powerful tool, I've built entire complicated websites on top of it for work.  It also has tight integration with Google Docs, so you can do things like "run this script when somebody submits a form entry".
+
+http://codepen.io/ 
+
+This is an interactive HTML/CSS/JS tool to quickly do rapid webpage devleopment.  Similar to the above, but gives you the standard HTML DOM.
+
+#### Golang Playground
+
+https://go.dev/play/
+
+Golang is the new python - people really like it because it's fast and compiles down really small.
+
+#### Java Playground
+
+https://dev.java/playground/
+
+#### Rust Playground
+
+https://play.rust-lang.org/
+
+This is the only hosted playground I could find that would actually allow interactive input.
+
+#### Installed Options
+
+There are about a million different ways to do this with every language ever invented.  Including downloading the toolchain to your computer and installing it.
+
+My preference is always to use GitHub Codespaces.  This is a web hosted environment that gives you VSCode in your browser, and a shell in which you can install any toolchain and run it.  It by default comes with a bunch.  In fact, this is how I do some of my work.
 
 ### Project Ideas
 
@@ -60,6 +109,8 @@ For this assignment, you should:
 
 > [!TIP]
 > For bonus points, come up with your own respones!  Be creative!
+
+This project would be super easy and fun in scratch.
 
 #### Guess the number (easy)
 
@@ -119,6 +170,8 @@ This is not a valid merit badge.
 
 To help with this project, I've provided a data file of [Merit Badges](merit_badges.txt) and [Eagle Required Merit Badges](eagle_merit_badges.txt)
 
+This could be done in any of the tools, especially the online ones.
+
 #### Avg of X random numbers (easy/med)
 
 1. Ask the user to enter the number of random numbers to generate.
@@ -140,11 +193,11 @@ Borrowing from: https://web.ics.purdue.edu/~morelanj/RAO/prepare2.html
 
 Examples
 
-| word | iglatinpay  |
-|---|---|
-| pig | igpay |
-| hello | ellohay |
-| child | ildchay |
+| word    | iglatinpay |
+| ------- | ---------- |
+| pig     | igpay      |
+| hello   | ellohay    |
+| child   | ildchay    |
 | awesome | awesomehay |
 
 > [!NOTE]
